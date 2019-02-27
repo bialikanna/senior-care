@@ -6,7 +6,7 @@
     "dev": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production --display-modules"
   },
-  "author": "",
+  "author": "Anna Bialik",
   "license": "ISC",
   "babel": {
     "presets": [
