@@ -1,8 +1,8 @@
-# Opieka osób starszych
+# Senior Care - website
 
 ## What the project does?
 
-Coś tam robi
+This website is an information website of a company that deals with the care of the senior.
 
 ## Technical notes
 
