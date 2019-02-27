@@ -2,7 +2,7 @@
 
 ## What the project does?
 
-This website is an information website of a company that deals with the care of the senior.
+This project is an information website of a company that deals with the care of the senior.
 
 ## Technical notes
 
