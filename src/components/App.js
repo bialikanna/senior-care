@@ -4,6 +4,19 @@ import "../styles/components/main.less";
 import phoneSolid from "../styles/images/phone-solid.svg";
 import logoSeniorCare from "../styles/images/LogoSeniorCare.svg";
 import baner1 from "../styles/images/baner1.jpg";
+import baner2 from "../styles/images/baner2.jpg";
+// import baner3 from "../styles/images/baner3.jpg";
+// import baner4 from "../styles/images/baner4.jpg";
+import services1 from "../styles/images/services1.svg";
+import services2 from "../styles/images/services2.svg";
+import services3 from "../styles/images/services3.svg";
+import services4 from "../styles/images/services4.svg";
+import access1 from "../styles/images/access1.svg";
+import access2 from "../styles/images/access2.svg";
+// import mail from "../styles/images/mail.svg";
+// import phone from "../styles/images/phone.svg";
+// import facebook from "../styles/images/facebook.svg";
+
 
 export default class App extends Component {
   constructor(props) {
@@ -16,10 +29,10 @@ export default class App extends Component {
     return (
       <Fragment>
         <header>
-          <div class="telephone_bar">
+          <div class="header_telephone_bar">
             <div class="wrapper">
               <div class="header_contact_data">
-                <div class="telephone_icon">
+                <div class="header_telephone_icon">
                   <img src={phoneSolid} />
                 </div>
                 <p>
@@ -80,8 +93,8 @@ export default class App extends Component {
               </div>
               <div class="oneoftwo">
                 <div class="right">
-                  <img src={baner1} />
-                  <img src={baner1} />
+                  <img src={baner2} />
+                  <img src={baner2} />
                 </div>
               </div>
             </div>
@@ -105,7 +118,7 @@ export default class App extends Component {
               <div class="box">
                 <div class="inner">
                   <div class="icon">
-                    <img src="" alt="" />
+                    <img src={services1} alt="" />
                   </div>
                   <h2>Podawanie leków</h2>
                   <p>
@@ -121,7 +134,7 @@ export default class App extends Component {
               <div class="box">
                 <div class="inner">
                   <div class="icon">
-                    <img src="" alt="" />
+                    <img src="services2" alt="" />
                   </div>
                   <h2>Podawanie leków</h2>
                   <p>
@@ -137,7 +150,7 @@ export default class App extends Component {
               <div class="box">
                 <div class="inner">
                   <div class="icon">
-                    <img src="" alt="" />
+                    <img src="services3" alt="" />
                   </div>
                   <h2>Podawanie leków</h2>
                   <p>
@@ -153,7 +166,7 @@ export default class App extends Component {
               <div class="box">
                 <div class="inner">
                   <div class="icon">
-                    <img src="" alt="" />
+                    <img src="services4" alt="" />
                   </div>
                   <h2>Podawanie leków</h2>
                   <p>
@@ -167,7 +180,7 @@ export default class App extends Component {
             </div>
           </div>
         </section>
-
+        section.
         <footer>
           <div class="wrapper" />
         </footer>
