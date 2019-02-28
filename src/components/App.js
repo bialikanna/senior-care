@@ -23,7 +23,7 @@ export default class App extends Component {
                   <img src={phoneSolid} />
                 </div>
                 <p>
-                  <a href="tel:+48725658420"> +48 725 658 420</a>
+                  <a href="tel:+848725658420"> +48 725 658 420</a>
                 </p>
               </div>
             </div>
