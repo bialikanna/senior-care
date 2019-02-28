@@ -134,7 +134,7 @@ export default class App extends Component {
               <div class="box">
                 <div class="inner">
                   <div class="icon">
-                    <img src="services2" alt="" />
+                    <img src={services2} alt="" />
                   </div>
                   <h2>Podawanie leków</h2>
                   <p>
@@ -150,7 +150,7 @@ export default class App extends Component {
               <div class="box">
                 <div class="inner">
                   <div class="icon">
-                    <img src="services3" alt="" />
+                    <img src={services3} alt="" />
                   </div>
                   <h2>Podawanie leków</h2>
                   <p>
@@ -166,7 +166,7 @@ export default class App extends Component {
               <div class="box">
                 <div class="inner">
                   <div class="icon">
-                    <img src="services4" alt="" />
+                    <img src={services4} alt="" />
                   </div>
                   <h2>Podawanie leków</h2>
                   <p>
@@ -180,7 +180,7 @@ export default class App extends Component {
             </div>
           </div>
         </section>
-        section.
+        <section></section>
         <footer>
           <div class="wrapper" />
         </footer>
