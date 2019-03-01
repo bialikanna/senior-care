@@ -116,13 +116,12 @@ export default class App extends Component {
           <div class="wrapper">
             <div class="oneoffour">
               <div class="box">
-                <div class="inner">
-                  <div class="icon">
+                <div class="inner_box">
+                  <div class="circle">
                     <img src={services1} alt="" />
                   </div>
                   <h2>Podawanie leków</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  <p>                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Perferendis, inventore dolor a ipsum asperiores qui odio
                     soluta facere cupiditate eos, minima doloribus, officiis
                     quis delectus vitae maxime! Ipsa, aspernatur, sint.
@@ -132,8 +131,8 @@ export default class App extends Component {
             </div>
             <div class="oneoffour">
               <div class="box">
-                <div class="inner">
-                  <div class="icon">
+                <div class="inner_box">
+                  <div class="circle">
                     <img src={services2} alt="" />
                   </div>
                   <h2>Podawanie leków</h2>
@@ -148,11 +147,11 @@ export default class App extends Component {
             </div>
             <div class="oneoffour">
               <div class="box">
-                <div class="inner">
-                  <div class="icon">
-                    <img src={services3} alt="" />
+                <div class="inner_box">
+                  <div class="circle">
+                    <img src={services2} alt="" />
+
                   </div>
-                  <h2>Podawanie leków</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Perferendis, inventore dolor a ipsum asperiores qui odio
@@ -164,8 +163,8 @@ export default class App extends Component {
             </div>
             <div class="oneoffour">
               <div class="box">
-                <div class="inner">
-                  <div class="icon">
+                <div class="inner_box">
+                  <div class="circle">
                     <img src={services4} alt="" />
                   </div>
                   <h2>Podawanie leków</h2>
