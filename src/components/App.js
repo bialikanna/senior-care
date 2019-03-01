@@ -124,7 +124,10 @@ export default class App extends Component {
                   <p>                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Perferendis, inventore dolor a ipsum asperiores qui odio
                     soluta facere cupiditate eos, minima doloribus, officiis
-                    quis delectus vitae maxime! Ipsa, aspernatur, sint.
+                    quis delectus vitae maxime! Ipsa, aspernatur, sint. Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
+              przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
+              przez nieznanego drukarza do wypełnienia tekstem próbnej książki.
+              Pięć wieków później zaczął być używany przemyśle elektronicznym.
                   </p>
                 </div>
               </div>
@@ -135,12 +138,15 @@ export default class App extends Component {
                   <div class="circle">
                     <img src={services2} alt="" />
                   </div>
-                  <h2>Podawanie leków</h2>
+                  <h2>Badanie EKG</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Perferendis, inventore dolor a ipsum asperiores qui odio
                     soluta facere cupiditate eos, minima doloribus, officiis
-                    quis delectus vitae maxime! Ipsa, aspernatur, sint.
+                    quis delectus vitae maxime! Ipsa, aspernatur, sint. Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
+              przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
+              przez nieznanego drukarza do wypełnienia tekstem próbnej książki.
+              Pięć wieków później zaczął być używany przemyśle elektronicznym.
                   </p>
                 </div>
               </div>
@@ -152,11 +158,15 @@ export default class App extends Component {
                     <img src={services2} alt="" />
 
                   </div>
+                  <h2>Gotownie</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Perferendis, inventore dolor a ipsum asperiores qui odio
                     soluta facere cupiditate eos, minima doloribus, officiis
-                    quis delectus vitae maxime! Ipsa, aspernatur, sint.
+                    quis delectus vitae maxime! Ipsa, aspernatur, sint.Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
+              przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
+              przez nieznanego drukarza do wypełnienia tekstem próbnej książki.
+              Pięć wieków później zaczął być używany przemyśle elektronicznym.
                   </p>
                 </div>
               </div>
@@ -167,12 +177,15 @@ export default class App extends Component {
                   <div class="circle">
                     <img src={services4} alt="" />
                   </div>
-                  <h2>Podawanie leków</h2>
+                  <h2>Pierwsza pomoc</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Perferendis, inventore dolor a ipsum asperiores qui odio
                     soluta facere cupiditate eos, minima doloribus, officiis
-                    quis delectus vitae maxime! Ipsa, aspernatur, sint.
+                    quis delectus vitae maxime! Ipsa, aspernatur, sint. Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w
+              przemyśle poligraficznym. Został po raz pierwszy użyty w XV w.
+              przez nieznanego drukarza do wypełnienia tekstem próbnej książki.
+              Pięć wieków później zaczął być używany przemyśle elektronicznym.
                   </p>
                 </div>
               </div>
