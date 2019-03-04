@@ -111,7 +111,7 @@ header {
     }
     .header_telephone_icon {
       width: 14px;
-      display: inline-block;
+      // display: inline-block;
       margin-right: 15px;
       float: left;
       img {
@@ -123,9 +123,8 @@ header {
         .p(14px, 400, @black, none, none, 20px);
         font-family: "OpenSansSemiBold";
       }
-
       float: left;
-      display: inline-block;
+      // display: inline-block;
     }
   }
 
@@ -235,7 +234,6 @@ section#our-services {
   height: auto;
   overflow: hidden;
   background: @white;
-
   padding: 60px 0px;
 
   h1 {
@@ -281,7 +279,7 @@ section#our-services-details {
         position: relative;
         img {
           height: 100px;
-          width: auto;
+          width: 100px;
           position: absolute;
           top: 25px;
           left:25px;
@@ -290,7 +288,7 @@ section#our-services-details {
       }
     }
     h2 {
-      .p(26px, 100, @white, none, uppercase, 30px);
+      .p(23px, 100, @white, none, uppercase, 30px);
       font-family: "OpenSansRegular";
       text-align: center;
       margin-bottom: 30px;
@@ -304,11 +302,46 @@ section#our-services-details {
   .oneoffour:nth-of-type(even) .box {
     background: #81e9d5;
   }
+
+section#our-access {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: @white;
+    .one-of-two {
+      .column(12);
+      @media @tablet {
+      .column(6);
+      }
+      @media @desktop {
+      .column(4);
+      }
+    }
+      .box-our-access {
+        padding: 30px 50px 30px 70px;
+        display: flex;
+        justify-content: space-between;
+      }
+        img {
+          height: 210px;
+          width: auto;
+          margin-right: 50px;
+        }
+        p {
+          
+          .p(16px, 100, @black, none, none, 26px);
+          font-family: "OpenSansRegular";
+          text-align: left;
+        }
+}
+
+
 footer#our-footer {
   width: 100%;
   height: auto;
   overflow: hidden;
   background: @green;
+ 
     .one-of-three {
       .column(12);
       @media @tablet {
@@ -316,6 +349,47 @@ footer#our-footer {
       }
       @media @desktop {
       .column(4);
+      }
+    }
+      .box-one-of-three {
+        margin: 30px 0px;
+        display: flex;
+        justify-content: space-between; 
+      }
+        .footer-box {
+          .footer-icon>img {
+            width: 100px;
+            height: 100px;
+          }
+        }
+          .footer-icon>p {
+            float: right;
+          }
+          p {
+            .p(18px, 100, @white, none, none, 28px);
+            font-family: "OpenSansSemiBold";
+            text-align: left;
+          }
+
+    .seconde-menu {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      background: @gray;
+
+    }
+
+    .bottom-bar {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      background: @green;
+      display: flex;
+      justify-content: space-between; 
+      p {
+      .p(11px, 100, @white, none, uppercase, 21px);
+      font-family: "OpenSansSemiBold";
+      text-align: left;
       }
     }
 

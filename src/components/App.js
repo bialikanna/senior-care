@@ -155,10 +155,10 @@ export default class App extends Component {
               <div class="box">
                 <div class="inner_box">
                   <div class="circle">
-                    <img src={services2} alt="" />
+                    <img src={services3} alt="" />
 
                   </div>
-                  <h2>Gotownie</h2>
+                  <h2>Gotowanie</h2>
                   <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Perferendis, inventore dolor a ipsum asperiores qui odio
@@ -195,7 +195,7 @@ export default class App extends Component {
 
         <section id="our-access">
           <div class="wrapper">
-            <div class="one-off-two">
+            <div class="one-of-two">
               <div class="box-our-access">
                 <div class="our-access-foto">
                   <img src={access1} alt="" />
@@ -210,7 +210,7 @@ export default class App extends Component {
             </div>
           </div>
 
-          <div class="one-off-two">
+          <div class="one-of-two">
               <div class="box-our-access">
                 <div class="our-access-foto">
                   <img src={access2} alt="" />
@@ -230,7 +230,7 @@ export default class App extends Component {
             <div class="one-of-three">
               <div class="box-one-of-three">
                 <div class="footer-box">
-                  <div class="footer-telephone">
+                  <div class="footer-icon">
                     <img src={phone} alt="" />
                   </div>
                   <p>+48 725 658 420</p>
@@ -241,7 +241,7 @@ export default class App extends Component {
             <div class="one-of-three">
               <div class="box-one-of-three">
                 <div class="footer-box">
-                  <div class="footer-mail">
+                  <div class="footer-icon">
                     <img src={mail} alt="" />
                   </div>
                   <p>gabriela.nowicka8@gmail.com</p>
@@ -252,7 +252,7 @@ export default class App extends Component {
             <div class="one-of-three">
               <div class="box-one-of-three">
                 <div class="footer-box">
-                  <div class="footer-facebook">
+                  <div class="footer-icon">
                     <img src={facebook} alt="" />
                   </div>
                 </div>
@@ -271,15 +271,11 @@ export default class App extends Component {
               </div> 
             </div>
             <div class="bottom-bar">
-              <p>2019 WSZELKIE PRAWA ZASTRZEŻONE</p>
-              <p>PROJEKT I REALIZACJA: ANNA BIALIK</p>
+              <p>2019 wszelkie prawa zastrzeżone</p>
+              <p>Projekt i realizacj: Anna Bialik</p>
             </div>
           </div>
         </footer>
-
-
-        
-
       </Fragment>
     );
   }
