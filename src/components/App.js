@@ -13,9 +13,9 @@ import services3 from "../styles/images/services3.svg";
 import services4 from "../styles/images/services4.svg";
 import access1 from "../styles/images/access1.svg";
 import access2 from "../styles/images/access2.svg";
-// import mail from "../styles/images/mail.svg";
-// import phone from "../styles/images/phone.svg";
-// import facebook from "../styles/images/facebook.svg";
+import mail from "../styles/images/mail.svg";
+import phone from "../styles/images/telefon.svg";
+import facebook from "../styles/images/facebook.svg";
 
 
 export default class App extends Component {
@@ -192,10 +192,94 @@ export default class App extends Component {
             </div>
           </div>
         </section>
-        <section></section>
-        <footer>
-          <div class="wrapper" />
+
+        <section id="our-access">
+          <div class="wrapper">
+            <div class="one-off-two">
+              <div class="box-our-access">
+                <div class="our-access-foto">
+                  <img src={access1} alt="" />
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="one-off-two">
+              <div class="box-our-access">
+                <div class="our-access-foto">
+                  <img src={access2} alt="" />
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+              </div>
+          </div>
+        </section>
+
+        <footer id="our-footer">
+          <div class="wrapper">
+            <div class="one-of-three">
+              <div class="box-one-of-three">
+                <div class="footer-box">
+                  <div class="footer-telephone">
+                    <img src={phone} alt="" />
+                  </div>
+                  <p>+48 725 658 420</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="one-of-three">
+              <div class="box-one-of-three">
+                <div class="footer-box">
+                  <div class="footer-mail">
+                    <img src={mail} alt="" />
+                  </div>
+                  <p>gabriela.nowicka8@gmail.com</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="one-of-three">
+              <div class="box-one-of-three">
+                <div class="footer-box">
+                  <div class="footer-facebook">
+                    <img src={facebook} alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="seconde-menu">
+              <div class="box-seconde-menu">
+                <ul>
+                  <li><a href="#">HOME</a></li>
+                  <li><a href="kontakt.html">USŁUGI</a></li>
+                  <li><a href="onas.html">O NAS</a></li>
+                  <li><a href="praca.html">PRACA</a></li>
+                  <li><a href="uslugi.html">KONTAKT</a></li>
+                </ul> 
+              </div> 
+            </div>
+            <div class="bottom-bar">
+              <p>2019 WSZELKIE PRAWA ZASTRZEŻONE</p>
+              <p>PROJEKT I REALIZACJA: ANNA BIALIK</p>
+            </div>
+          </div>
         </footer>
+
+
+        
+
       </Fragment>
     );
   }
