@@ -225,7 +225,7 @@ export default class App extends Component {
           </div>
         </section>
 
-        <footer id="our-footer">
+        <section id="our-data">
           <div class="wrapper">
             <div class="one-of-three">
               <div class="box-one-of-three">
@@ -233,7 +233,7 @@ export default class App extends Component {
                   <div class="footer-icon">
                     <img src={phone} alt="" />
                   </div>
-                  <p>+48 725 658 420</p>
+                  <p><a href="tel:+48725658420">+48 725 658 420</a></p>
                 </div>
               </div>
             </div>
@@ -258,24 +258,33 @@ export default class App extends Component {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
             
-            <div class="seconde-menu">
-              <div class="box-seconde-menu">
-                <ul>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="kontakt.html">USŁUGI</a></li>
-                  <li><a href="onas.html">O NAS</a></li>
-                  <li><a href="praca.html">PRACA</a></li>
-                  <li><a href="uslugi.html">KONTAKT</a></li>
-                </ul> 
-              </div> 
-            </div>
-            <div class="bottom-bar">
+        {/* <section id="second-menu">
+          <div class="wrapper">
+            <div class="box-second-menu">
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="kontakt.html">USŁUGI</a></li>
+                <li><a href="onas.html">O NAS</a></li>
+                <li><a href="praca.html">PRACA</a></li>
+                <li><a href="uslugi.html">KONTAKT</a></li>
+              </ul> 
+            </div> 
+          </div>
+        </section> */}
+           
+        <section id="bottom-bar">
+          <div class="wrapper">
+            <div className="one-of-two">      
+              <div class="box-bottom-bar">
               <p>2019 wszelkie prawa zastrzeżone</p>
-              <p>Projekt i realizacj: Anna Bialik</p>
+              <p>Projekt i realizacja: Anna Bialik</p>
+            </div>
             </div>
           </div>
-        </footer>
+        </section>
       </Fragment>
     );
   }

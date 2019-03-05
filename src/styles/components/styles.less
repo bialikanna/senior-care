@@ -336,7 +336,7 @@ section#our-access {
 }
 
 
-footer#our-footer {
+section#our-data {
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -357,43 +357,73 @@ footer#our-footer {
         justify-content: space-between; 
       }
         .footer-box {
-          .footer-icon>img {
+          display: flex;
+          justify-content: space-between; 
+          img {
             width: 100px;
             height: 100px;
-          }
-        }
-          .footer-icon>p {
-            float: right;
+            margin-right: 30px;
           }
           p {
-            .p(18px, 100, @white, none, none, 28px);
+            .p(16px, 100, @white, none, none, 100px);
             font-family: "OpenSansSemiBold";
             text-align: left;
+            a {
+              text-decoration: none;
+              color: @white;
+            }
           }
+        }
 
-    .seconde-menu {
+    // section#second-menu {
+    //   width: 100%;
+    //   height: auto;
+    //     .box-second-menu {
+    //       overflow: hidden;
+    //       background: @gray;
+    //         ul {
+    //           font-family: "OpenSansSemiBold";
+    //           font-style: 15px;
+    //           line-height: 120px;
+    //           display: flex;
+    //           justify-content: space-between;
+    //           li {
+    //             display: inline-block;
+    //             margin-left: 40px;
+    //             a {
+    //               color: @black;
+    //               text-decoration: none;
+    //             }
+    //           }
+    //         }
+    //     }
+    //   }
+
+    section#bottom-bar {
       width: 100%;
       height: auto;
-      overflow: hidden;
-      background: @gray;
-
-    }
-
-    .bottom-bar {
-      width: 100%;
-      height: auto;
-      overflow: hidden;
-      background: @green;
-      display: flex;
-      justify-content: space-between; 
-      p {
-      .p(11px, 100, @white, none, uppercase, 21px);
-      font-family: "OpenSansSemiBold";
-      text-align: left;
+      .one-of-two {
+        .column(12);
+        @media @tablet {
+        .column(6);
+        }
+        @media @desktop {
+        .column(4);
+        }
+      }
+        .box-bottom-bar{
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          background: @green;
+          // display: flex;
+          // justify-content: space-between; 
+          p {
+            .p(14px, 400, @white, none, none, 20px);
+            font-family: "OpenSansSemiBold";
+          }
       }
     }
-
-
   
 }
 
