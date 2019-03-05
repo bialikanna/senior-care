@@ -3,7 +3,7 @@ import services1 from "../styles/images/services1.svg";
 import services2 from "../styles/images/services2.svg";
 import services3 from "../styles/images/services3.svg";
 import services4 from "../styles/images/services4.svg";
-export class OurServicesDetails extends React.Component {
+export class ServicesDetails extends React.Component {
   constructor(props) {
     super(props);
   }

@@ -112,7 +112,6 @@ header {
     }
     .header_telephone_icon {
       width: 14px;
-      // display: inline-block;
       margin-right: 15px;
       float: left;
       img {
@@ -125,7 +124,6 @@ header {
         font-family: "OpenSansSemiBold";
       }
       float: left;
-      // display: inline-block;
     }
   }
 
@@ -303,7 +301,7 @@ section#our-services-details {
   }
 }
 
-section#our-access {
+section#access {
   width: 100%;
   height: auto;
   overflow: hidden;
@@ -315,23 +313,28 @@ section#our-access {
       .column(6);
     }
     @media @desktop {
-      .column(2);
+      .column(6);
     }
-  }
-  .box-our-access {
-    padding: 30px 50px 30px 50px;
-    display: flex;
-    justify-content: space-between;
 
-    img {
-      height: 210px;
-      width: auto;
-      margin-right: 50px;
-    }
-    p {
-      .p(16px, 100, @black, none, none, 26px);
-      font-family: "OpenSansRegular";
-      text-align: left;
+    .box-one-of-two {
+      padding: 30px 50px;
+
+      .access-box {
+        display: flex;
+        justify-content: space-between;
+        .access-foto {
+          img {
+            width: 200px;
+            height: auto;
+            margin-right: 50px;
+          }
+        }
+        p {
+          .p(16px, 100, @black, none, none, 26px);
+          font-family: "OpenSansRegular";
+          text-align: left;
+        }
+      }
     }
   }
 }
@@ -382,18 +385,17 @@ section#second-menu {
   background: @gray;
   overflow: hidden;
   .box-second-menu {
+    width: 100%;
+    height: auto;
     ul {
-      font-family: "OpenSansSemiBold";
-      font-style: 15px;
-      line-height: 50px;
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
       li {
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 35px;
         a {
-          .p(11px, 400, @black, none, uppercase, 23px);
-          font-family: "OpenSansRegular";
+          .p(10px, 400, @black, none, uppercase, 35px);
+          font-family: "OpenSansSemiBold";
         }
       }
     }
@@ -402,26 +404,32 @@ section#second-menu {
 
 section#bottom-bar {
   width: 100%;
-
   height: auto;
   background: @green;
   overflow: hidden;
   .one-of-two {
     .column(12);
     @media @tablet {
-      .column(6);
+      .box-bottom-bar {
+        p {
+          .p(11px, 400, @light-green, none, uppercase, 23px);
+          font-family: "OpenSansRegular";
+        }
+      }
     }
-    @media @desktop {
-      .column(6);
-    }
-  }
 
-  display: flex;
-  flex-direction: row;
-  p {
-    width: auto;
-    .p(11px, 400, @light-green, none, uppercase, 23px);
-    white-space: normal;
-    font-family: "OpenSansRegular";
+    // @media @desktop {
+    //   .column(6);
+    // }
+  }
+  .box-bottom-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    p {
+      .p(10px, 400, @light-green, none, uppercase, 23px);
+      font-family: "OpenSansRegular";
+    }
   }
 }

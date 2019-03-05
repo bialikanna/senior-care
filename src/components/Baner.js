@@ -1,7 +1,7 @@
 import React from "react";
 import baner1 from "../styles/images/baner1.jpg";
 import baner2 from "../styles/images/baner2.jpg";
-export class Banner extends React.Component {
+export class Baner extends React.Component {
   constructor(props) {
     super(props);
   }
