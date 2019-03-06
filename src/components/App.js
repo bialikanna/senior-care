@@ -18,7 +18,6 @@ export default class App extends Component {
   }
 
   render() {
-    console.log("jsahdgkj", this.state.urlLink);
     return (
       <Router>
         <Fragment>
