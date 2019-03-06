@@ -16,15 +16,23 @@ export default class App extends Component {
   }
 
   render() {
-    console.log(window.location.pathname);
+    // console.log(window.location.pathname);
 
     return (
       <Router>
         <Fragment>
-          <Header url={window.location.pathname}/>
+          <Header url={window.location.pathname} />
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/contact" component={Contact} />
+            <Route
+              exact
+              path={`${window.location.pathname}`}
+              component={Home}
+            />
+            <Route
+              exact
+              path={`${window.location.pathname}contact`}
+              component={Contact}
+            />
           </Switch>
           <Footer />
         </Fragment>

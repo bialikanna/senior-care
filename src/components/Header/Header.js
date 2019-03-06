@@ -8,6 +8,8 @@ export class Header extends React.Component {
     super(props);
   }
   render() {
+    console.log(`${this.props.url}contact`);
+
     return (
       <header>
         <div class="header_telephone_bar">
