@@ -24,7 +24,7 @@ export class Header extends React.Component {
           <div class="wrapper">
             <div class="logo">
               <a href="#">
-                <img src={logoSeniorCare} />{" "}
+                <img src={logoSeniorCare} />
               </a>
             </div>
             <nav>
