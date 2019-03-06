@@ -8,7 +8,7 @@ export class Header extends React.Component {
     super(props);
   }
   render() {
-    console.log(`${this.props.url}contact`);
+    console.log(`contact`);
 
     return (
       <header>
@@ -37,7 +37,7 @@ export class Header extends React.Component {
                   <Link to={`${this.props.url}`}>Home</Link>
                 </li>
                 <li>
-                  <Link to={`${this.props.url}contact`}>Contadsact</Link>
+                  <Link to={`${this.props.url}contact`}>Kontakt</Link>
                 </li>
                 {/* <li>
                     <a href="onas.html">O NAS</a>
