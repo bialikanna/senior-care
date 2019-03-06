@@ -1,8 +1,8 @@
 import React from "react";
-import baner1 from "../styles/images/baner1.jpg";
-import baner2 from "../styles/images/baner2.jpg";
-import baner3 from "../styles/images/baner3.png";
-import baner4 from "../styles/images/baner4.png";
+import baner1 from "../../../styles/images/baner1.jpg";
+import baner2 from "../../../styles/images/baner2.jpg";
+import baner3 from "../../../styles/images/baner3.png";
+import baner4 from "../../../styles/images/baner4.png";
 export class Baner extends React.Component {
   constructor(props) {
     super(props);

@@ -1,6 +1,6 @@
 import React from "react";
-import access1 from "../styles/images/access1.svg";
-import access2 from "../styles/images/access2.svg";
+import access1 from "../../../styles/images/access1.svg";
+import access2 from "../../../styles/images/access2.svg";
 export class Access extends React.Component {
   constructor(props) {
     super(props);

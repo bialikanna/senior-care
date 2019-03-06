@@ -1,7 +1,7 @@
 import React from "react";
-import mail from "../styles/images/mail.svg";
-import phone from "../styles/images/telefon.svg";
-import facebook from "../styles/images/facebook.svg";
+import mail from "../../../styles/images/mail.svg";
+import phone from "../../../styles/images/telefon.svg";
+import facebook from "../../../styles/images/facebook.svg";
 export class FooterData extends React.Component {
   constructor(props) {
     super(props);

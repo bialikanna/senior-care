@@ -1,6 +1,8 @@
-import React from "react";
-import phoneSolid from "../styles/images/phone-solid.svg";
-import logoSeniorCare from "../styles/images/LogoSeniorCare.svg";
+import React, { Fragment } from "react";
+import phoneSolid from "../../styles/images/phone-solid.svg";
+import logoSeniorCare from "../../styles/images/LogoSeniorCare.svg";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 export class Header extends React.Component {
   constructor(props) {
     super(props);
@@ -30,20 +32,20 @@ export class Header extends React.Component {
             <nav>
               <ul>
                 <li>
-                  <a href="#">HOME</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href="kontakt.html">USŁUGI</a>
+                  <Link to="/contact">Contadsact</Link>
                 </li>
-                <li>
-                  <a href="onas.html">O NAS</a>
-                </li>
-                <li>
-                  <a href="praca.html">PRACA</a>
-                </li>
-                <li>
-                  <a href="uslugi.html">KONTAKT</a>
-                </li>
+                {/* <li>
+                    <a href="onas.html">O NAS</a>
+                  </li>
+                  <li>
+                    <a href="praca.html">PRACA</a>
+                  </li>
+                  <li>
+                    <a href="uslugi.html">KONTAKT</a>
+                  </li> */}
               </ul>
             </nav>
           </div>
