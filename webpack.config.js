@@ -5,7 +5,8 @@ module.exports = {
   entry: "./src/index.js",
   devtool: "source-map",
   output: {
-    filename: "bundle.js",
+    filename: "[name].bundle.js",
+    chunkFilename: "[name].bundle.js",
     path: path.resolve(__dirname, "docs")
   },
 
@@ -45,10 +46,27 @@ module.exports = {
           }
         ]
       },
-
       {
-        test: /\.(woff|woff2|eot|ttf|png|svg|jpg|gif)$/,
-        use: ["url-loader?limit=100000"]
+        test: /\.(woff|woff2|eot|ttf)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "fonts/[sha512:hash:base64:7].[ext]"
+            }
+          }
+        ]
+      },
+      {
+        test: /\.(png|svg|jpg|gif)$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "images/[sha512:hash:base64:7].[ext]"
+            }
+          }
+        ]
       }
     ]
   },
@@ -56,5 +74,10 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: path.resolve(__dirname, "src/index.html")
     })
-  ]
+  ],
+  optimization: {
+    splitChunks: {
+      chunks: "all"
+    }
+  }
 };
