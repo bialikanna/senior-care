@@ -11,17 +11,18 @@ import { Contact } from "./Main/Contact";
 export default class App extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      urlLink: window.location.pathname
+    };
     autoBind(this);
   }
 
   render() {
-    // console.log(window.location.pathname);
-
+    console.log("jsahdgkj", this.state.urlLink);
     return (
       <Router>
         <Fragment>
-          <Header url={window.location.pathname} />
+          <Header url={this.state.urlLink} />
           <Switch>
             <Route
               exact
